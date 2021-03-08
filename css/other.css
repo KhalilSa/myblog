@@ -1,0 +1,43 @@
+blockquote {
+    border-left: 6px solid var(--lapis-blue);
+    margin: 0.25rem 8px;
+    padding: 1rem 8px;
+}
+
+mark {
+    background: linear-gradient(-100deg, hsla(48, 92%, 75%, .3), hsla(48, 92%, 75%, .7) 95%, hsla(48, 92%, 75%, .1));
+    border-radius: 1em 0;
+    padding: 2px 0.5em;
+}
+
+pre {
+    white-space: pre-wrap;
+    background: var(--dorian);
+    border-left: 8px solid var(--onyx);
+    padding: 1rem 0 1rem 0;
+}
+
+figcaption {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.mr-1 {
+    margin-right: 8px;
+}
+
+.ml-1 {
+    margin-left: 8px;
+}
+
+.mt-1 {
+    margin-top: 8px;
+}
+
+.mb-1 {
+    margin-bottom: 8px;
+}
+
+.wid-full {
+    width: 100% !important;
+}

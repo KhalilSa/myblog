@@ -1,0 +1,82 @@
+/* Text & Background Colors */
+
+:root {
+    --lapis-blue: #25274D;
+    --mulled-wine: #464866;
+    --spun-pearl: #AAABB8;
+    --curious-blue: #2E9CCA;
+    --bdazzled-blue: #29648A;
+    --onyx: #0E0E2B;
+    --slate: #4A4A68;
+    --light-slate: #8C8CA1;
+    --dorian: #ECF1F4;
+    --cloud: #FAFCFE;
+    --evergreen: #85EEBC;
+    --fuschia: #EE8585;
+}
+
+.bg-lp {
+    background-color: var(--lapis-blue);
+}
+
+.bg-mw {
+    background-color: var(--mulled-wine);
+}
+
+.bg-sp {
+    background-color: var(---spun-pearl);
+}
+
+.bg-cb {
+    background-color: var(--curious-blue);
+}
+
+.bg-bb {
+    background-color: var(--bdazzled-blue);
+}
+
+.bg-on {
+    background-color: var(--onyx);
+}
+
+.bg-sl {
+    background-color: var(--slate);
+}
+
+.bg-ls {
+    background-color: var(--light-slate);
+}
+
+.bg-do {
+    background-color: var(--dorian);
+}
+
+.bg-cl {
+    background-color: var(--cloud);
+}
+
+.bg-ev {
+    background-color: var(--evergreen);
+}
+
+.bg-fu {
+    background-color: var(--fuschia);
+}
+
+.blue,
+.green {
+    color: var(--evergreen);
+    padding: 4px 0 8px 0;
+}
+
+.blue {
+    color: var(--bdazzled-blue);
+}
+
+.onyx {
+    color: var(--onyx);
+}
+
+.gray {
+    color: var(--spun-pearl);
+}

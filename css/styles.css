@@ -1,21 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import 'colors.css';
+@import 'typography.css';
+@import 'other.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-:root {
-    --lapis-blue: #25274D;
-    --mulled-wine: #464866;
-    --spun-pearl: #AAABB8;
-    --curious-blue: #2E9CCA;
-    --bdazzled-blue: #29648A;
-    --onyx: #0E0E2B;
-    --slate: #4A4A68;
-    --light-slate: #8C8CA1;
-    --dorian: #ECF1F4;
-    --cloud: #FAFCFE;
-    --evergreen: #85EEBC;
-    --fuschia: #EE8585;
-}
-
 html {
     box-sizing: border-box;
 }
@@ -36,210 +22,6 @@ body {
     ;
     line-height: 140%;
     color: var(--slate)
-}
-
-
-/* Typography */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.strong-txt {
-    font-weight: bold;
-    color: var(--onyx);
-    transition: all 0.2s ease-in-out 0s;
-}
-
-h1 {
-    font-size: 4.4rem;
-    line-height: 80px;
-    letter-spacing: -0.03em;
-    margin-bottom: 48px;
-}
-
-h2 {
-    font-size: 3.6rem;
-    line-height: 49px;
-    letter-spacing: -0.02em;
-    margin-bottom: 36px;
-}
-
-h3 {
-    font-size: 2.8rem;
-    line-height: 30px;
-    letter-spacing: -0.01em;
-    margin-bottom: 24px;
-}
-
-h4 {
-    font-weight: 500;
-    font-size: 2rem;
-    line-height: 23px;
-    letter-spacing: 0.005em;
-    margin: 18px 0 18px 0;
-}
-
-.strong-txt {
-    font-size: 1.4rem;
-    line-height: 19px;
-    color: var(--slate);
-}
-
-p,
-.body-txt {
-    font-size: 1.4rem;
-}
-
-p {
-    max-width: 650px;
-}
-
-em,
-.italic-txt {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 1.4rem;
-    line-height: 19px;
-}
-
-.button-txt {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.4rem;
-    line-height: 13px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-.small-txt {
-    font-size: 1.2rem;
-    line-height: 12px;
-    letter-spacing: 0.03em;
-}
-
-.caption-txt {
-    font-size: 1.4rem;
-    line-height: 13px;
-    letter-spacing: 0.02em;
-}
-
-.sub-h {
-    margin-top: -1em;
-}
-
-a,
-.link-txt {
-    font-weight: bold;
-    line-height: 19px;
-    text-decoration-line: underline;
-    color: var(--curious-blue)
-}
-
-a {
-    text-decoration: none;
-}
-
-.link-txt:hover {
-    color: var(--bdazzled-blue);
-    cursor: pointer;
-}
-
-.link-txt:active {
-    color: var(--lapis-blue);
-    cursor: pointer;
-}
-
-p {
-    margin: 0 12px 1.5em 0;
-}
-
-.nv-txt {
-    width: max-content;
-    display: inline-block;
-}
-
-.mr-1 {
-    margin-right: 8px;
-}
-
-.ml-1 {
-    margin-left: 8px;
-}
-
-.mt-1 {
-    margin-top: 8px;
-}
-
-.mb-1 {
-    margin-bottom: 8px;
-}
-
-.blue,
-.green {
-    color: var(--evergreen);
-    padding: 4px 0 8px 0;
-}
-
-.blue {
-    color: var(--bdazzled-blue);
-}
-
-.onyx {
-    color: var(--onyx);
-}
-
-
-/* Background Colors */
-
-.bg-lp {
-    background-color: var(--lapis-blue);
-}
-
-.bg-mw {
-    background-color: var(--mulled-wine);
-}
-
-.bg-sp {
-    background-color: var(---spun-pearl);
-}
-
-.bg-cb {
-    background-color: var(--curious-blue);
-}
-
-.bg-bb {
-    background-color: var(--bdazzled-blue);
-}
-
-.bg-on {
-    background-color: var(--onyx);
-}
-
-.bg-sl {
-    background-color: var(--slate);
-}
-
-.bg-ls {
-    background-color: var(--light-slate);
-}
-
-.bg-do {
-    background-color: var(--dorian);
-}
-
-.bg-cl {
-    background-color: var(--cloud);
-}
-
-.bg-ev {
-    background-color: var(--evergreen);
-}
-
-.bg-fu {
-    background-color: var(--fuschia);
 }
 
 
@@ -454,6 +236,14 @@ p {
     justify-content: space-between;
     padding: 2rem 1.25rem 2rem 1.5rem;
     color: var(--spun-pearl);
+}
+
+.share-links-box {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 0 0 16px 8px;
 }
 
 
@@ -758,25 +548,6 @@ label {
     width: 90%;
     margin-left: 5%;
     border: 1px solid var(--spun-pearl);
-}
-
-blockquote {
-    border-left: 6px solid var(--lapis-blue);
-    margin: 0.25rem 8px;
-    padding: 1rem 8px;
-}
-
-mark {
-    background: linear-gradient(-100deg, hsla(48, 92%, 75%, .3), hsla(48, 92%, 75%, .7) 95%, hsla(48, 92%, 75%, .1));
-    border-radius: 1em 0;
-    padding: 2px 0.5em;
-}
-
-pre {
-    white-space: pre-wrap;
-    background: var(--dorian);
-    border-left: 8px solid var(--onyx);
-    padding: 1rem 0 1rem 0;
 }
 
 
